@@ -52,14 +52,13 @@ ul {
 .header-address-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .header-address-link:hover {
   color: #404bbf;
-  font-style: normal;
 }
 
 /*!--------------------**/
@@ -92,6 +91,7 @@ ul {
 }
 .hero-btn:focus {
   background-color: #404bbf;
+  color: #404bbf;
 }
 .hero-btn:active {
   background-color: #404bbf;
