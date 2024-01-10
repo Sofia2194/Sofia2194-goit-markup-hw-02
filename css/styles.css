@@ -126,6 +126,9 @@ ul {
 .team-list {
   background-color: #ffffff;
 }
+.team-item {
+  background-color: #ffffff;
+}
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
