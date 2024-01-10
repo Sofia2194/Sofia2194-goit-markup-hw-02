@@ -59,6 +59,7 @@ ul {
 }
 .header-address-link:hover {
   color: #404bbf;
+  font-style: normal;
 }
 
 /*!--------------------**/
@@ -90,6 +91,9 @@ ul {
   background-color: var(--OCEAN, #404bbf);
 }
 .hero-btn:focus {
+  background-color: #404bbf;
+}
+.hero-btn:active {
   background-color: #404bbf;
 }
 
