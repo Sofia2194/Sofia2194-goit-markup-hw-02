@@ -48,10 +48,6 @@ ul {
 .header-menu-link:active span {
   color: #404bbf;
   text-decoration: underline;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  flex-shrink: 0;
 }
 .header-address-link {
   color: var(--SLATE, #434455);
@@ -93,6 +89,9 @@ ul {
 .hero-btn:hover {
   background-color: var(--OCEAN, #404bbf);
 }
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 
 /*!--------------------**/
 
@@ -118,6 +117,9 @@ ul {
 /*!-------TEAM-------**/
 
 .team {
+  background-color: #f4f4fd;
+}
+.team-list {
   background-color: #ffffff;
 }
 .team-title {
